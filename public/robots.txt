@@ -1,0 +1,17 @@
+
+User-agent: *
+Allow: /
+
+
+Disallow: /admin/
+Disallow: /login/
+Disallow: /cart/
+Disallow: /checkout/
+Disallow: /profile/
+Disallow: /settings/
+
+
+Allow: /images/
+
+
+Sitemap: https://movienest.vercel.app/sitemap.xml

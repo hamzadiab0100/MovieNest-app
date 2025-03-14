@@ -1,0 +1,15 @@
+.swiper-pagination-progressbar {
+    position: relative !important;
+    bottom: 0 !important;
+    left: 25% !important; 
+    width: 50% !important; 
+    background-color: rgba(255, 255, 255, 0.2) !important;
+    height: 5px !important;
+    border-radius: 5px !important;
+}
+
+.swiper-pagination-progressbar-fill {
+    background-color: red !important;
+    height: 100% !important;
+    border-radius: 5px !important;
+}
