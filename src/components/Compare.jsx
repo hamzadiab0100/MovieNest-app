@@ -117,7 +117,7 @@ function Compare() {
                     <div className='flex justify-center'>
                     {selectedPlan === "Basic" && (
                     <div className='flex gap-10 flex-col justify-center'>
-                        <div className='flex items-center   justify-between  '>
+                        <div className='flex items-center px-2  justify-between  '>
                             <div className='flex flex-col'>
                                 <h1 className='text-[#999999] text-xl'>Price</h1>
                                 <p>{planss.basic.price}</p>
@@ -128,15 +128,15 @@ function Compare() {
                             </div>
                             
                         </div>
-                        <div className='flex flex-col'>
+                        <div className='flex flex-col px-2 '>
                             <h1 className='text-[#999999] text-xl'>Contect</h1>
                             <p>{planss.basic.content}</p>
                         </div>
-                        <div className='flex flex-col'>
+                        <div className='flex flex-col px-2'>
                             <h1 className='text-[#999999] text-xl'>Divices</h1>
                             <p>{planss.basic.devices}</p>
                         </div>
-                        <div className='flex items-center    justify-between '>
+                        <div className='flex items-center px-2   justify-between '>
                             <div className='flex flex-col'>
                             <h1 className='text-[#999999] text-xl'>Cancel Anytime</h1>
                             <p>{planss.basic.cancelAnytime}</p>
@@ -147,7 +147,7 @@ function Compare() {
                             </div>
                             
                         </div>
-                        <div className='flex items-center    justify-between '>
+                        <div className='flex items-center  px-2  justify-between '>
                             <div className='flex flex-col'>
                             <h1 className='text-[#999999] text-xl'>Dolby Atmos</h1>
                             <p>{planss.basic.dolbyAtmos}</p>
@@ -158,7 +158,7 @@ function Compare() {
                             </div>
                             
                         </div>
-                        <div className='flex items-center    justify-between gap-10 '>
+                        <div className='flex items-center  px-2  justify-between gap-10 '>
                             <div className='flex flex-col'>
                             <h1 className='text-[#999999] text-xl'>Offline Viewing</h1>
                             <p>{planss.basic.offlineViewing}</p>
@@ -173,7 +173,7 @@ function Compare() {
                 )}
                 {selectedPlan === "Standard" && (
                     <div className='flex gap-10 flex-col justify-center'>
-                    <div className='flex items-center   justify-between  '>
+                    <div className='flex items-center  px-2 justify-between  '>
                         <div className='flex flex-col'>
                             <h1 className='text-[#999999] text-xl'>Price</h1>
                             <p>{planss.standard.price}</p>
@@ -184,15 +184,15 @@ function Compare() {
                         </div>
                         
                     </div>
-                    <div className='flex flex-col'>
+                    <div className='flex flex-col px-2'>
                         <h1 className='text-[#999999] text-xl'>Contect</h1>
                         <p>{planss.standard.content}</p>
                     </div>
-                    <div className='flex flex-col'>
+                    <div className='flex flex-col px-2'>
                         <h1 className='text-[#999999] text-xl'>Divices</h1>
                         <p>{planss.standard.devices}</p>
                     </div>
-                    <div className='flex items-center    justify-between '>
+                    <div className='flex items-center  px-2  justify-between '>
                         <div className='flex flex-col'>
                         <h1 className='text-[#999999] text-xl'>Cancel Anytime</h1>
                         <p>{planss.standard.cancelAnytime}</p>
@@ -203,7 +203,7 @@ function Compare() {
                         </div>
                         
                     </div>
-                    <div className='flex items-center    justify-between '>
+                    <div className='flex items-center  px-2  justify-between '>
                         <div className='flex flex-col'>
                         <h1 className='text-[#999999] text-xl'>Dolby Atmos</h1>
                         <p>{planss.standard.dolbyAtmos}</p>
@@ -214,7 +214,7 @@ function Compare() {
                         </div>
                         
                     </div>
-                    <div className='flex items-center    justify-between gap-10 '>
+                    <div className='flex items-center  px-2  justify-between gap-10 '>
                         <div className='flex flex-col'>
                         <h1 className='text-[#999999] text-xl'>Offline Viewing</h1>
                         <p>{planss.standard.offlineViewing}</p>
@@ -229,7 +229,7 @@ function Compare() {
                 )}
                 {selectedPlan === "Premium" && (
                     <div className='flex gap-10 flex-col justify-center'>
-                    <div className='flex items-center   justify-between  '>
+                    <div className='flex items-center  px-2 justify-between  '>
                         <div className='flex flex-col'>
                             <h1 className='text-[#999999] text-xl'>Price</h1>
                             <p>{planss.premium.price}</p>
@@ -240,15 +240,15 @@ function Compare() {
                         </div>
                         
                     </div>
-                    <div className='flex flex-col'>
+                    <div className='flex flex-col px-2'>
                         <h1 className='text-[#999999] text-xl'>Contect</h1>
                         <p>{planss.premium.content}</p>
                     </div>
-                    <div className='flex flex-col'>
+                    <div className='flex flex-col px-2'>
                         <h1 className='text-[#999999] text-xl'>Divices</h1>
                         <p>{planss.premium.devices}</p>
                     </div>
-                    <div className='flex items-center    justify-between'>
+                    <div className='flex items-center px-2   justify-between'>
                         <div className='flex flex-col'>
                         <h1 className='text-[#999999] text-xl'>Cancel Anytime</h1>
                         <p>{planss.premium.cancelAnytime}</p>
@@ -259,7 +259,7 @@ function Compare() {
                         </div>
                         
                     </div>
-                    <div className='flex items-center    justify-between '>
+                    <div className='flex items-center px-2   justify-between '>
                         <div className='flex flex-col'>
                         <h1 className='text-[#999999] text-xl'>Dolby Atmos</h1>
                         <p>{planss.premium.dolbyAtmos}</p>
@@ -269,7 +269,7 @@ function Compare() {
                         <p>{planss.premium.adFree}</p>
                         </div>  
                     </div>
-                    <div className='flex items-center    justify-between gap-10 '>
+                    <div className='flex items-center  px-2  justify-between gap-10 '>
                         <div className='flex flex-col'>
                         <h1 className='text-[#999999] text-xl'>Offline Viewing</h1>
                         <p>{planss.premium.offlineViewing}</p>
