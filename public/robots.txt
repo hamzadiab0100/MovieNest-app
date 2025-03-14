@@ -14,4 +14,4 @@ Disallow: /settings/
 Allow: /images/
 
 
-Sitemap: https://movienest.vercel.app/sitemap.xml
+Sitemap:https://movienest-app.vercel.app/sitemap.xml
